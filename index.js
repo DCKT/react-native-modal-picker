@@ -19,25 +19,25 @@ import BaseComponent from "./BaseComponent"
 
 let componentIndex = 0
 
-const propTypes = {
-  data: PropTypes.array,
-  onChange: PropTypes.func,
-  initValue: PropTypes.string,
-  showCancelButton: PropTypes.bool,
-  style: View.propTypes.style,
-  selectStyle: View.propTypes.style,
-  selectedItemTextStyle: Text.propTypes.style,
-  optionStyle: View.propTypes.style,
-  optionTextStyle: Text.propTypes.style,
-  sectionStyle: View.propTypes.style,
-  sectionTextStyle: Text.propTypes.style,
-  cancelStyle: View.propTypes.style,
-  cancelTextStyle: Text.propTypes.style,
-  overlayStyle: View.propTypes.style,
-  optionContainerStyle: View.propTypes.style,
-  cancelContainerStyle: View.propTypes.style,
-  cancelText: PropTypes.string
-}
+// const propTypes = {
+//   data: PropTypes.array,
+//   onChange: PropTypes.func,
+//   initValue: PropTypes.string,
+//   showCancelButton: PropTypes.bool,
+//   style: View.propTypes.style,
+//   selectStyle: View.propTypes.style,
+//   selectedItemTextStyle: Text.propTypes.style,
+//   optionStyle: View.propTypes.style,
+//   optionTextStyle: Text.propTypes.style,
+//   sectionStyle: View.propTypes.style,
+//   sectionTextStyle: Text.propTypes.style,
+//   cancelStyle: View.propTypes.style,
+//   cancelTextStyle: Text.propTypes.style,
+//   overlayStyle: View.propTypes.style,
+//   optionContainerStyle: View.propTypes.style,
+//   cancelContainerStyle: View.propTypes.style,
+//   cancelText: PropTypes.string
+// }
 
 const defaultProps = {
   data: [],
@@ -197,5 +197,5 @@ export default class ModalPicker extends BaseComponent {
   }
 }
 
-ModalPicker.propTypes = propTypes
+// ModalPicker.propTypes = propTypes
 ModalPicker.defaultProps = defaultProps
